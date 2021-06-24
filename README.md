@@ -20,7 +20,7 @@ Para execução e desenvolvimento do projeto é necessário, ou que tenha instal
 ## Execução pro projeto
  - O site foi desenvolvido em localhost, para fazer executa-lo será necessário instalar o node.js, utilizar qualquer editor de código, exemplo: Visual Studio Code. 
  No visual Studio pelo terminal deve utilizar o comando ```npm install -g @angular/cli``` e logo após o download terminar, escolher um diretório para colocar a pasta do projeto, após, utilizar o comando ``` cd localdoprojeto ``` e ```ng serve -o ``` para instalar o servidor e mostrar o projeto no navegador.
- - O site de busca está hospedado no Heroku [link] : Para fazer a hospagem foi necessário a criação de três arquivos : ```Procfile``` = que será para iniciar o servidor, logo, deve-se rodar ``` npm run build ``` e o ``` npm i express```; o segundo arquivo: ```server.js``` = nesse arquivo conterá os códigos que terá a funcao de inicializar o servidor na porta = 8080,  um get para tudo que for requisitado e ao final enviar o arquivo da página.
+ - O site de busca está hospedado no Heroku [https://listar-npm-packages.herokuapp.com] : Para fazer a hospagem foi necessário a criação de três arquivos : ```Procfile``` = que será para iniciar o servidor, logo, deve-se rodar ``` npm run build ``` e o ``` npm i express```; o segundo arquivo: ```server.js``` = nesse arquivo conterá os códigos que terá a funcao de inicializar o servidor na porta = 8080,  um get para tudo que for requisitado e ao final enviar o arquivo da página.
 ## Api para fazer as requisições
  - [Heroku](https://www.heroku.com/)
 
