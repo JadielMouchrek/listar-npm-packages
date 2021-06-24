@@ -1,0 +1,10 @@
+<div class="container">
+<h2>NPM Packages</h2>
+<input (keyup)="onKey($event)" />
+<ul class="packages">
+  <li *ngFor="let packageD of packages;  let i = index ;trackBy: trackItem">
+    <span class="badge" (click)="clickPackageDetail(packageD)">{{packageD.name}}</span>
+  </li>
+</ul>
+</div>
+

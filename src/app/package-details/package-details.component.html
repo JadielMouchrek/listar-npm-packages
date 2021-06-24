@@ -1,0 +1,30 @@
+
+<div class="container">
+  <div class="container-title">
+    <span (click)="goBack()" title="Voltar" > < </span>
+    <h2>Detalhes do pacote</h2>
+  </div>
+
+<ul class="heroes">
+  <li>
+    <span class="title">Nome:</span>
+    <span class="description">{{package.name}}</span>
+  </li>
+  <li>
+    <span class="title">keywords:</span>
+    <span>{{package.keywords}}</span>
+  </li>
+  <li>
+    <span class="title">Descrição:</span>
+    <span class="description">{{package.description}}</span>
+  </li>
+  <li>
+    <span class="title">Versão:</span>
+    <span class="description">{{package.version}}</span>
+  </li>
+  <li>
+    <span class="title">Modificação:</span>
+    <span class="description">{{package.modified}}</span>
+  </li>
+</ul>
+</div>
