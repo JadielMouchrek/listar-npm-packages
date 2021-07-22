@@ -23,6 +23,7 @@ Para execução e desenvolvimento do projeto é necessário, ou que tenha instal
  - O site de busca está hospedado no Heroku [https://listar-npm-packages.herokuapp.com] : Para fazer a hospagem foi necessário a criação de três arquivos : ```Procfile``` = que será para iniciar o servidor, logo, deve-se rodar ``` npm run build ``` e o ``` npm i express```; o segundo arquivo: ```server.js``` = nesse arquivo conterá os códigos que terá a funcao de inicializar o servidor na porta = 8080,  um get para tudo que for requisitado e ao final enviar o arquivo da página.
 ## Api para fazer as requisições
  - [Heroku](https://www.heroku.com/)
+ - [Api Pública](https://npm.io/api/v1/search?query={${searchValue === ''? 'term' : searchValue}}&keyword:portuguese)
 
 ## Arquitetura do projeto	
 	
